@@ -158,3 +158,13 @@ footer {
 footer p {
     margin: 0;
 }
+
+#about video {
+    width: 100%;
+    max-width: 400px; /* Reduces the maximum width of the video */
+    height: auto; /* Maintains the video’s aspect ratio */
+    display: block;
+    margin: 20px auto; /* Centers the video horizontally and adds vertical space */
+    border-radius: 10px; /* Rounds the corners of the video */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds a subtle shadow for depth */
+}
